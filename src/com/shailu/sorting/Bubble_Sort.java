@@ -5,10 +5,10 @@ public class Bubble_Sort {
 	public static void main(String[] args) {
 		
 		int[] input = { 4, 2, 9, 6, 23, 12, 34, 0, 1 };
-		bubble_sort(input);
+		new Bubble_Sort().bubble_sort(input);
 	}
 
-	private static void bubble_sort(int[] input) {
+	private  void bubble_sort(int[] input) {
 		
 		for(int i=0; i<input.length;i++)
 		{
@@ -30,9 +30,9 @@ public class Bubble_Sort {
 
 		for(int i=0; i<input.length; i++)
 		{
-			System.out.print(input[i] + ", ");
+			System.out.print(input[i] + "  ");
 		}
-		System.out.println();
+		//System.out.println();
 	}
 
 	private static void swap(int i, int k, int[] input) {
